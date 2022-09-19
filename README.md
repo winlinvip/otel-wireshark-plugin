@@ -37,10 +37,11 @@ Clone the `cls.proto`
 
 ```bash
 cd ~/git
-git clone https://github.com/ossrs/srs.git
+git clone https://github.com/winlinvip/otel-wireshark-plugin.git
+ls -lh ~/git/otel-wireshark-plugin/cls/cls.proto
 ```
 
 Setup wireshark protobuf search paths:
 
-* `/Users/winlin/git/srs/trunk/research/proto`
+* `/Users/winlin/git/otel-wireshark-plugin/cls`
 
