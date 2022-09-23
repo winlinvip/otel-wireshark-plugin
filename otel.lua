@@ -4,8 +4,8 @@
 -- Download proto files for otel:
 --      git clone https://github.com/open-telemetry/opentelemetry-proto.git
 -- Setup Wireshark `Protobuf search paths` to load the proto files at `Preferences > Protocols > Protobuf`:
---      ~/git/opentelemetry-proto
---      ~/git/srs/trunk/research/proto
+--      /home/winlin/git/opentelemetry-proto
+--      /home/winlin/git/otel-wireshark-plugin/cls
 -- Start capture or parsing file.
 
 do
