@@ -1,3 +1,5 @@
+-- For OpenTelemetry APM protocol over HTTP, see https://github.com/winlinvip/otel-wireshark-plugin
+--
 -- To apply this wireshark plugin:
 --      mkdir -p ~/.local/lib/wireshark/plugins
 --      ln -sf $(pwd)/otel.lua ~/.local/lib/wireshark/plugins/otel.lua
