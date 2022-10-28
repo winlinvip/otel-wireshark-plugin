@@ -42,3 +42,11 @@ do
   tbl:add("application/x-protobuf", otel_proto)
   print("Add application/x-protobuf dissector", otel_proto)
 end
+
+do
+  -- For OpenTelemetry APM over gRPC/http2, see https://github.com/open-telemetry/opentelemetry-go/tree/main/exporters/otlp/otlptrace
+  local http2_dissector = Dissector.get("http2")
+  local tcp_dissector_table = DissectorTable.get("tcp.port")
+  tcp_dissector_table:add(4317, http2_dissector)
+end
+
